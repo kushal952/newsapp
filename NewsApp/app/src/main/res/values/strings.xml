@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="store_list">Store List</string>
+    <string name="not_available">Not Available</string>
+    <string name="back">back</string>
+    <string name="error_msg">Something went wrong please check your connection and try again</string>
+
+</resources>

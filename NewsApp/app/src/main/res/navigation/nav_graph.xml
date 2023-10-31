@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/landing_screen"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        tools:layout="@layout/activity_main"
+        android:id="@+id/landing_screen"
+        android:name="com.speedyy.newsapp.view.LandingScreen"
+        android:label="MainActivity" >
+        <action
+            android:id="@+id/action_landing_screen_to_detailsScreen"
+            app:destination="@id/detailsScreen" >
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/detailsScreen"
+        android:name="com.speedyy.newsapp.view.DetailsScreen"
+        android:label="DetailsScreen" />
+
+</navigation>
+
+
+
+
+
+
+
+
+
+
+
